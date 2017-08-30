@@ -1,0 +1,110 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Slick
+@import "node_modules/slick-carousel/slick/slick.scss";
+@import "node_modules/slick-carousel/slick/slick-theme.scss";
+
+.testimonials-slider {
+  margin-top: 50px !important;
+  margin-bottom: 100px !important;
+}
+
+.testimonial-slide {
+  outline: none;
+  position: relative;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #E3E3E3;
+  padding: 35px;
+  text-align: center;
+}
+
+.testimonial-name {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.testimonial-company {
+  margin-bottom: 30px;
+}
+
+.testimonial-quote {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.slick-slide img {
+  display: inline-block !important;
+
+}
+
+/*slick slider column margins*/
+.slick-slide {
+  margin: 0 35px;
+}
+
+/*slick slider column margins*/
+.slick-list {
+  margin: 0 -35px;
+}
+
+.slick-prev {
+  z-index: 999;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 34px !important;
+  color: gray !important;
+}
+
+.slick-dots {
+  bottom: -50px !important;
+}
+
+.slick-dots li button:before {
+  /*margin-top: 30px;*/
+  font-size: 10px !important;
+}
+
+header {
+  ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 40px;
+
+
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+.mb {
+  margin-bottom: 8px;
+}
+
+.spacer {
+  margin-bottom: 40px;
+}
+
+.form-group {
+  margin-bottom: 40px;
+}
+
+.min-height {
+  min-height: 50px;
+}
+
+.my-handle {
+  cursor: move;
+}
